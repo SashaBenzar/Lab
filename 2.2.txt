@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float a,b,c,d;
+printf("введіть точку a=");
+scanf("%g",&a);
+printf("введіть точку b=");
+scanf("%g",&b);
+printf("введіть точку c=");
+scanf("%g",&c);
+d=(a+b*c)/(2*a-b-c)+a/(b+2);
+printf("D="); 
+printf("%g", d); 
+    return 0;
+}

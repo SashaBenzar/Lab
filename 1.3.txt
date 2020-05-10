@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main()
+{
+    int A,B,C,x;
+    printf("A=");
+    scanf("%d",&A);
+    printf("B=");
+    scanf("%d",&B);
+    printf("C=");
+    scanf("%d",&C);
+    x=B;
+    B=A;
+    A=C;
+    C=x;
+    printf("%d ",A); 
+    printf("%d ",B);
+    printf("%d ",C);
+    return 0;
+}
